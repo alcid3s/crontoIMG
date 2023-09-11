@@ -54,7 +54,7 @@ public class Main {
         return Base64.encodeBase64String(image);
     }
     private static String toHex(String arg) {
-        return String.format("%040x", new BigInteger(1, arg.getBytes(/*YOUR_CHARSET?*/)));
+        return String.format("%040x", new BigInteger(1, arg.getBytes()));
     }
 
     private static void createWindow(BufferedImage img) {
