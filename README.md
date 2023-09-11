@@ -1,3 +1,5 @@
+This repo is forked from ifad/cronto
+
 # CRONTO Image generator
 
 This is a super simple command-line wrapper for Onespan's [Image Generator SDK][Onespan-IMG-SDK]
@@ -10,7 +12,7 @@ PNG image as a result.
 # Usage from the command line
 
 ```
-./bin/cronto yourdata
+./bin/cronto helloworld!
 ```
 
 spits on standard output the cronto image encoded as a base64 PNG
